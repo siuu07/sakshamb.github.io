@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Saksham Bhatia - Project 1</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">SAKSHAM BHATIA</a>
+					</header>
+
+				<!-- Nav -->
+					
+                    <nav id="nav">
+                        
+						<ul class="links">
+							<li class="active"><a href="index.html">HOME</a></li>
+							<!--
+                            <li><a href="generic.html">Generic Page</a></li>
+							<li><a href="elements.html">Elements Reference</a></li>
+                        -->
+						</ul>
+                    
+						<ul class="icons">
+							<li><a href="https://linkedin.com/in/saksham-bhatia-710b34217" class="icon brands fa-linkedin"><span class="label">Instagram</span></a></li>
+							
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h1>FANTASY SOCCER GAME</h1>
+									<p>This was probably the best experience of my programming career thus far where I developed a single-player game using Java Swing for GUI that allowed users to add 11 players into their soccer team and earn points through real-world player performance. IDE utilized was IntelliJ IDEA CE. </p>
+								</header>
+								<div class="image main"><img src="images/Screenshot%202022-05-19%20at%201.15.04%20AM.png" alt="" /></div>
+								<p>Once the player joined the game the menu as shown above was displayed. Depending on the option selected the following screens appeared.</p>
+							</section>
+                            <!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<h2><a >Display Team</a></h2>
+									</header>
+									<a  class="image fit"><img src="images/Screenshot%202022-05-19%20at%201.23.43%20AM.png" alt="" /></a>
+									<p><b>How it Worked?</b><br>Used a "chk" flag to determine whether a team existed before using a getter method to get a list of the Player objects in the Team object. Finally, iterated through the resulting list and displayed each player's name, jersey number and goals. </p>
+								</article>
+								<article>
+									<header>
+										<h2><a >Add Player</a></h2>
+									</header>
+									<a class="image fit"><img align="middle" src="images/Screenshot%202022-05-19%20at%201.24.31%20AM.png" alt="" /></a>
+									<p><b>How it Worked?</b><br> Checked if team object had a size greater than or equal to 11. If not, then the player object was created using the name, jersey number and goals specified by user. Otherwise, an error message was shown. </p>
+								</article>
+                                <article>
+									<header>
+										<h2><a >Display a specific player's details</a></h2>
+									</header>
+									<a  class="image fit"><img src="images/Screenshot%202022-05-19%20at%201.25.40%20AM.png" alt="" /></a>
+                                    <p><b>How it Worked?</b><br> Team list object was parsed through and if the entered name matched an existing player name then their name, jersey number and goals were displayed. <br></p>
+								</article>
+                                <article>
+									<header>
+										<h2><a >Save/Load Player Data</a></h2>
+									</header>
+									<a class="image fit"></a>
+									<p><b>How it Worked?</b><br>Here, I made use of a JsonWriter and JsonReader class that wrote to and read from a local file of type json. Writing was done by calling the following methods - jsonWriter.open(),jsonWriter.write(ob),jsonWriter.close(). On the other hand, reading was done by calling the jsonReader.read() method on the json file. </p>
+								</article>
+                                <article>
+									<header>
+										<h2><a >Update Player Goals</a></h2>
+									</header>
+									<a  class="image fit"><img src="images/Screenshot%202022-05-19%20at%201.29.29%20AM.png" alt="" /></a>
+									<p><b>How it Worked?</b><br> Team list object was parsed through and if the entered name and the jersey number matched with an existing player then the goals were updated with new number specified by user.</p>
+								</article>
+                                <article>
+									<header>
+										<h2><a >Remove Player</a></h2>
+									</header>
+									<a class="image fit"><img src="images/Screenshot%202022-05-19%20at%201.30.06%20AM.png" alt="" /></a>
+                                    <p><b>How it Worked?</b><br>Team list object was parsed through and if the entered jersey number matched with an existing player then the Player object was deleted from team. Following this, the user was prompted to save changes to Team object. 
+                                    </p>
+									
+								</article>
+							</section>
+                        <section class="post">
+								<header class="major">
+									<h1>RESULTS</h1>
+									<p> It wasn't until I had designed the entire game till I realised how much work I had put into this application and how much I had learned through the entire journey. One essential aspect of this project was that of performing testing for each possible scenario one could encounter. I applied my knowledge on exceptions to make sure that the application was robust. Prior to attempting this project I used to develop by getting straight into hard coding and figuring out the relationships between classes as I go along. However, now I realize the efficiency offered by design tools such as class-relationship diagrams, object diagrams and control flow diagrams. This allows me to get an idea of how I can write better code to allow for minimal changes if added functionality is required. After having designed and implemented the main foundation for the game came user-interface design using SWING library. I found this part to be the most interesting as what I had imagined my game to be in the initial stages of the project was gradually coming to life. Using panels, jframes, buttons and textboxes I tried to make the interface as user-friendly as possible. </p>
+								</header>
+								
+							</section>
+					</div>
+
+				<!-- Footer -->
+					!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">sakshambhatia2002@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://linkedin.com/in/saksham-bhatia-710b34217" class="icon brands alt fa-linkedin"><span class="label">Instagram</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

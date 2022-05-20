@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Saksham Bhatia - Project 2</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">SAKSHAM BHATIA</a>
+					</header>
+
+				<!-- Nav -->
+					
+                    <nav id="nav">
+                        
+						<ul class="links">
+							<li class="active"><a href="index.html">HOME</a></li>
+							<!--
+                            <li><a href="generic.html">Generic Page</a></li>
+							<li><a href="elements.html">Elements Reference</a></li>
+                        -->
+						</ul>
+                    
+						<ul class="icons">
+							<li><a href="https://linkedin.com/in/saksham-bhatia-710b34217" class="icon brands fa-linkedin"><span class="label">Instagram</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h1>UFV ALUMNI WEBSITE</h1>
+									<p>In the winter of 2021, I had worked with a team of 5 members to create a website that would allow for Alumni-Student interactions through numerous fun activities. It was a project that went on for 3 months and was divided into 11 phases starting from coming up with a model for the back-end and then implementing a GUI accordingly. This project helped me build a strong foundation in data manipulation techniques using SQL queries and debugging for redundancies. <br></p>
+                                    <p> The project was divided into the following phases-</p>
+                                    
+								</header>
+								<div class="image main"><img src="images/Screenshot%202022-05-19%20at%203.52.28%20AM.png" alt="" />
+                                </div>
+								
+							</section>
+                        <section class="post">
+								<header class="major">
+                                    
+									<h2>1.PLANNING </h2>
+                                    </header>
+									<p>Here, we defined the mission statement of our database. The primary aim of our database is to act as a mediator amongst the University of the Fraser Valley’s alumni. In the planning phase we came up with the following points-</p>
+                                    <ol>
+                                        <li> Users must be able to update/delete their respective comments as they wish. </li>
+                                        <li> Visitors can see the homepage, however, to see the comments one must be registered into the website. </li>
+                                        <li> Only the admin user must have the capability of proofreading and allowing comments to be added. </li>
+                                        <li> The website must be light in weight and not overloaded with graphics. </li>
+                                    </ol> 
+                                    
+							</section>
+                            <!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<h3><a >a) Physical Data Model</a></h3>
+									</header>
+									<a  class="image fit"><img src="images/Screenshot%202022-05-19%20at%203.42.47%20AM.png" alt="" /></a>
+									<p>We came up with a physical data model in the first phase of the Website creation process to identify the relationships between each data table. The physical data model aided in visualizing database structure by reproducing database column keys, constraints, indexes, triggers, and other RDBMS features. In the above table data types used for the Table Final depend on the tables Users and Display as it is a view table which is depended on the base table to get its data. </p>
+								</article>
+								<article>
+									<header>
+										<h3><a> b) Data Flow Diagram</a></h3>
+									</header>
+									<a class="image fit"><img align="middle" src="images/Screenshot%202022-05-19%20at%203.49.08%20AM.png"alt="" /></a>
+									<p>Although the data flow diagram was completed in the later stages of the website design, we had initially visualised by identifying how the information would flow throughout the website to allow for a more organised appraoch.  </p>
+								</article>
+                        </section>
+                        <section class="post">
+								<header class="major">
+									<h2>2.SYSTEM DEFINITION </h2>
+									<p>Here, we gave permission to the different people that access the database. </p>
+                                    </header>
+                                    <ol>
+                                        <h3> Administrators- </h3>
+                                        <li> Can edit the different webpages. </li>
+                                        <li> Can read all added comments. </li>
+                                        <li> Can enable comments. </li>
+                                        <li> Can see all users.</li>
+                                        <li> Can delete a user profile</li>
+                                        
+                                    </ol> 
+                                    <ol>
+                                        <h3> Website Visitors- </h3>
+                                        <li> Can see the homepage.</li>
+                                        <li> Are not allowed to add comments until registered.</li>
+                                        
+                                    </ol>
+                                    <ol>
+                                        <h3> Website Users- </h3>
+                                        <li> Can add a comment.</li>
+                                        <li> Can view all comments that are added.</li>
+                                        <li>Can update/delete their own comment.</li>
+                                        <li>Can edit or delete their own profile.</li>
+                                        
+                                    </ol>
+                                    
+								
+                        </section>
+                        <section class="post">
+								<header class="major">
+									<h2>3.REQUIREMENTS COLLECTION AND ANALYSIS </h2>
+                                    </header>
+									<p>In this phase, we first made of the requirements that are needed for our project (Fraser Valley India Alumni website) and then we collected some records from the previous alumni students of the Fraser valley India (FVI). Also, one thing we analysed that a lot of previous alumni students are present on various social platforms such as Instagram, so we created a database that can enable the users to enter their Instagram ID.</p>
+								
+                        </section>
+                        <section class="post">
+								<header class="major">
+									<h2>4.DATABASE DESIGN </h2>
+                                    </header>
+									<p>We kept the primary objectives in our mind, and we completed the conceptual, physical, and logical database design, which are explained briefly in the Data Flow Diagram (DFD) &amp; Enterprise Relationships Diagram (ERD) sections.</p>
+								
+                        </section>    
+                        <section class="post">
+								<header class="major">
+									<h2>5.DBMS SELECTION </h2>
+                                    </header>
+									<p>As our group had decided to create a dynamic website. We decided to use php as it would provide easy connection to with oracle database and is the best combination with html and CSS So with the help of php we connected to Apache server oracle database (sqldeveloper) and used XAMPP for server-side connection.</p>
+								
+                        </section>   
+                        <section class="post">
+								<header class="major">
+									<h2>6. APPLICATION DESIGN </h2>
+                                    </header>
+									<p>The architecture of the user interface and the application systems that use and process the database is referred to as application design. Since the GUI is one of the most critical elements of the framework, we made certain that it was easy to read, use, and understand. Application architecture is split into two parts: transaction design and user interface design.</p>
+								
+                        </section>  
+                        <section class="posts">
+								<article>
+									<header>
+										<h3><a >Transaction Design</a></h3>
+									</header>
+									<p>When the user wants to update his/her comment or his/her profile transaction design is performed.</p>
+								</article>
+								<article>
+									<header>
+										<h3><a >User Interface Design</a></h3>
+									</header>
+									<p>Before introducing forms and reports, we ensured that they had descriptive titles and that the instructions were short, specific, and easy to understand for the user. It had all of the appropriate fields grouped in a sequential order. In the forms/reports, no abbreviations were used. There was also a consistent use of colour, making it physically pleasing to the consumer. </p>
+								</article>
+                        </section>
+                        <section class="post">
+								<header class="major">
+									<h2>7. PROTOTYPING</h2>
+                                    </header>
+									<p>Prototyping is a rough model but partially working model of a database system. For the testing purposes of our project, we added various aliases so as in to check the comments are updated successfully or not, and if the details of the user are being updated (username, password, email IDs) etc. We also asked some friends to sign up for the website and put in their comments which helped us to understand the project ever more. The feedback from the friends helped us to change various things in our website (such as font style, addition of videos and images) etc.</p>
+								
+                        </section>  
+                        <section class="post">
+								<header class="major">
+									<h2>8. IMPLEMENTATION </h2>
+                                    </header>
+									<p>Initially, we created two tables User consisting of the following fields- name, username, password. Another table "comment" was created containing the user's name, username, password and comment . We joined these two tables to create a display table however, this created a Redundancy issue due to the common fields in both the tables. Then we did not request the username etc. in the comments table instead we used a PHP session to acquire the stored username inside the display table. After this, we created a final (view) table where we added the username, name and email from the users table and we added batch, field, Instagram, comment from the display table by equating the primary key (username) in both tables.We created a back-end database in this phase, the local DBMS using (SQL developer and OCI Oracle cloud infrastructure) and then a suitable connection was made to the front-end design using NetBeans, PHP, HTML, CSS, BOOTSTRAP, Java Script, jQuery). The following languages were used to design and code the framework of the website. We had then used BOOTSTRAP and PHP forms at the front-end of the website to insert/fetch/update the data from the users into the website. After the designing of the website and back-end database was done, we used XAMPP and Apache Server to connect the front-end and back-end of our website. After that, we were able to run our Fraser Valley India (FVI) website on local host. </p>
+								
+                        </section>    
+                        <section class="post">
+								<header class="major">
+									<h2>9. DATA CONVERSION &amp; LOADING  </h2>
+									<p>Data Conversion is the translation of computer data from one format to another. Throughout a computer environment, data is encoded in a variety of ways. Whenever any one of these variables is changed, data must be converted in some way before it can be used by a different computer, operating system, or program. </p>
+                                    
+								</header>
+                            <ol>
+                                    <h3><a >In our case-</a></h3>
+                                    <li> The data in the Private table is being transported into the Display table. Hence, we have converted all these records into the format required by the Display table.</li>
+                                    <li> When we input the password however, while adding this into the database we convert this into an encrypted form.</li>
+                                        
+                                    </ol>
+                        </section>    
+                        <section class="post">
+								<header class="major">
+									<h2>10. TESTING </h2>
+                                    </header>
+									<ul>
+                                    <li> We tested our website mainly to check if all the different webpages were free of errors. After this, we checked whether an admin could perform all the primary functions like adding/deleting users and had access to the comments added by them.</li>
+                                    <li>We checked if while registering or logging in the user enters any details that are incorrect or inadequate the appropriate message is displayed.</li>
+                                    <li> We tested if all comments were first reaching the Private table and then being added to the Final table by the admin.</li>
+                                        
+                                    </ul>
+								
+                        </section>  
+                        <section class="post">
+								<header class="major">
+									<h2>11. MAINTENANCE ISSUES </h2>
+									
+								</header>
+                            <ol type="a">
+                                    <li> <b>Problems with connection:</b> After the front-end (using Neatbeans, PHP, HTML, CSS, BOOTSTRAP, Java Script, Jquery) and back-end (SQl, OCI Oracle Cloud Infrastructure) of our Fraser Valley India (FVI) website, was completed, we faced a major issue where we weren’t able to connect out front-end interface with back-end interface. As a result, the users were just able to view website, but were not able to put in any information as it was prompting an error. After rigorous research by all the team members, we were finally able to join front-end and back-end using XAMPP and Apache server. XAMPP is a server-side connection which basically provides port numbers and connection (https – 443) to website which can be opened by a local host.</li>
+                                
+                                    <li> <b>Database records couldn’t be updated:</b> In between designing out website, it was pointed out by one of our teammates that, whenever a user was trying to update their account details, they were getting an error for the same. As a result, the records of the database were not getting updated. After, careful proof reading of the codes, it was found out that one of the queries were wrongly written and implemented. So after carefully examining, the variables and function in the queries were changed properly and then, the users were able to update their account details.</li>
+                                </ol>
+                                
+                        </section>  
+                                
+                        <section class="post">
+								<header class="major">
+									<h1>RESULTS</h1>
+									<p>One of the main challenges we faced initially was understanding how complex of a project we should aim for. It was hard to come up with something that each member would agree on. Finally, we decided to go for a project that would relate to what we were doing as it would motivate us to keep going. Hence, we came up with a way for a student to interact with their alumni through the use of comments and other features. An instrumental part of the project that stood out to me in terms of its significance was documenting each phase thoroughly. It became extremely simple to map out our progress by taking down every little change we made. Another essential skill that I developed through the responsibilities assigned to me was Normalization and debugging for redundancies in the data. </p>
+								</header>
+								
+							</section>
+					</div>
+
+				<!-- Footer -->
+					!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">sakshambhatia2002@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://linkedin.com/in/saksham-bhatia-710b34217" class="icon brands alt fa-linkedin"><span class="label">Instagram</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
