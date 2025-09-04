@@ -1,32 +1,49 @@
-Massively by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# 👋 Hi, I’m Saksham Bhatia  
 
+🎓 **B.Sc. Computer Science, University of British Columbia**  
+💻 Passionate about building **developer-facing tools, interactive applications, and ML-driven solutions**  
+🌍 Currently based in Dubai, UAE  
 
-This is Massively, a text-heavy, article-oriented design built around a huge background
-image (with a new parallax implementation I'm testing) and scroll effects (powered by
-Scrollex). A *slight* departure from all the one-pagers I've been doing lately, but one
-that fulfills a few user requests and makes use of some new techniques I've been wanting
-to try out. Enjoy it :)
+---
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+## 🚀 About Me
+- 🔹 Full stack developer with experience in **TypeScript, React, Node.js, Express**  
+- 🔹 Data & ML enthusiast with hands-on projects using **Python, scikit-learn, XGBoost, LightGBM**  
+- 🔹 Experienced in working in **agile, sprint-based projects** and collaborative workflows  
+- 🔹 Strong interest in **AI-driven applications, visualization tools, and security workflows**  
 
-(* = not included)
+---
 
-AJ
-aj@lkn.io | @ajlkn
+## 🔧 Tech Stack
+**Languages:** TypeScript, JavaScript, Python, SQL  
+**Frontend:** React, Leaflet, ShadCN UI  
+**Backend:** Node.js, Express  
+**ML/Data:** scikit-learn, XGBoost, LightGBM, Matplotlib  
+**Tools:** Git, GitHub, ServiceNow, Qualys, Excel  
 
+---
 
-Credits:
+## 📌 Featured Projects
+### 🏫 [Campus Rooms Explorer](https://github.com/your-username/campus-rooms-explorer)  
+*TypeScript, React, Node.js, Express, Leaflet, ShadCN UI*  
+- Built a full stack web app to explore campus rooms with **interactive maps and walking time estimation**  
+- Implemented **Haversine formula** for distance/time calculation and integrated **Leaflet** for custom map overlays  
 
-	Demo Images:
-		Unsplash (unsplash.com)
+---
 
-	Icons:
-		Font Awesome (fontawesome.io)
+### 💳 [Credit Card Default Prediction](https://github.com/your-username/credit-card-default-prediction)  
+*Python, scikit-learn, XGBoost, LightGBM*  
+- Developed an ML pipeline on a dataset with **30K+ records & 24 features**  
+- Performed **EDA, preprocessing, and feature engineering**  
+- Achieved **0.70 F1 score** using macro-averaged cross validation  
 
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+---
+
+## 📫 Connect with Me
+- GitHub: https://github.com/siuu07/sakshamb.github.io
+- LinkedIn: https://www.linkedin.com/in/saksham-bhatia-710b34217/
+- Email: sakshambhatia2002@gmail.com
+
+---
+
+⭐️ *Check out my projects above or scroll through my repos for more!*  
