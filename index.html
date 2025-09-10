@@ -1,104 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Saksham Bhatia | Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 text-gray-900 font-sans">
 
   <!-- Header -->
-  <header class="bg-white shadow sticky top-0 z-50">
-    <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
-      <h1 class="text-xl font-bold">Saksham Bhatia</h1>
-      <nav class="space-x-6">
-        <a href="#projects" class="hover:text-blue-600">Projects</a>
-        <a href="#about" class="hover:text-blue-600">About</a>
-        <a href="#contact" class="hover:text-blue-600">Contact</a>
+  <header class="bg-white/80 backdrop-blur shadow sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-extrabold tracking-tight">Saksham Bhatia</h1>
+      <nav class="space-x-6 font-medium">
+        <a href="#projects" class="hover:text-blue-600 transition">Projects</a>
+        <a href="#about" class="hover:text-blue-600 transition">About</a>
+        <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
       </nav>
     </div>
   </header>
 
   <!-- Hero -->
-  <section class="text-center py-16 bg-gradient-to-r from-blue-500 to-indigo-600 text-white">
-    <h2 class="text-4xl font-bold mb-4">Welcome to My Portfolio</h2>
-    <p class="text-lg">I build interactive dashboards, full-stack apps, and machine learning models.</p>
+  <section class="text-center py-24 bg-gradient-to-r from-blue-500 via-indigo-600 to-purple-600 text-white">
+    <h2 class="text-5xl font-extrabold mb-4 animate-pulse">Hi, I’m Saksham 👋</h2>
+    <p class="text-lg max-w-2xl mx-auto opacity-90">
+      I design interactive dashboards, build full-stack applications, and develop machine learning models with clean code & thoughtful design.
+    </p>
+    <div class="mt-8">
+      <a href="#projects" class="bg-white text-indigo-700 px-6 py-3 rounded-full font-semibold shadow hover:shadow-lg transition">View My Work</a>
+    </div>
   </section>
 
   <!-- Projects -->
-  <section id="projects" class="max-w-5xl mx-auto px-6 py-16">
-    <h3 class="text-3xl font-bold mb-10">Projects</h3>
-    <div class="grid md:grid-cols-2 gap-8">
+  <section id="projects" class="max-w-6xl mx-auto px-6 py-20">
+    <h3 class="text-3xl font-bold mb-12 text-center">Projects</h3>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
-      <!-- Shark Attack Data Visualization -->
-      <div class="bg-white rounded-2xl shadow p-6">
+      <!-- Project Card -->
+      <div class="bg-white rounded-2xl shadow hover:shadow-xl transition transform hover:-translate-y-2 p-6">
         <h4 class="text-xl font-semibold mb-2">Shark Attack Data Visualisation</h4>
-        <p class="text-gray-700 mb-2">Jan 2025 – Apr 2025</p>
-        <p class="mb-4 text-sm">Interactive D3.js dashboard with a timeline, choropleth map, and parallel sets chart to explore 200+ years of Australian shark attack data. Implemented dynamic filters, dispatcher architecture, and responsive design.</p>
-        <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">D3.js</span>
-        <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">JavaScript</span>
+        <p class="text-gray-500 text-sm mb-2">Jan 2025 – Apr 2025</p>
+        <p class="mb-4 text-sm">Interactive D3.js dashboard with timeline, choropleth map, and parallel sets chart exploring 200+ years of shark attack data. Features dynamic filters & dispatcher architecture.</p>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">D3.js</span>
+          <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">JavaScript</span>
+        </div>
       </div>
 
-      <!-- Fantasy Soccer Game -->
-      <div class="bg-white rounded-2xl shadow p-6">
+      <div class="bg-white rounded-2xl shadow hover:shadow-xl transition transform hover:-translate-y-2 p-6">
         <h4 class="text-xl font-semibold mb-2">Fantasy Soccer Game</h4>
-        <p class="text-gray-700 mb-2">Sep 2021 – Dec 2021</p>
-        <p class="mb-4 text-sm">Single-player Java Swing game where users build soccer teams and earn points from real-world player performance. Features load/save options using JSON.</p>
-        <span class="text-xs bg-green-100 text-green-800 px-2 py-1 rounded">Java</span>
-        <span class="text-xs bg-green-100 text-green-800 px-2 py-1 rounded">Swing</span>
+        <p class="text-gray-500 text-sm mb-2">Sep 2021 – Dec 2021</p>
+        <p class="mb-4 text-sm">Single-player Java Swing game where users build soccer teams and earn points from real-world performance. Added save/load feature with JSON.</p>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-2 py-1 bg-green-100 text-green-800 text-xs rounded-full">Java</span>
+          <span class="px-2 py-1 bg-green-100 text-green-800 text-xs rounded-full">Swing</span>
+        </div>
       </div>
 
-      <!-- Alumni Website -->
-      <div class="bg-white rounded-2xl shadow p-6">
+      <div class="bg-white rounded-2xl shadow hover:shadow-xl transition transform hover:-translate-y-2 p-6">
         <h4 class="text-xl font-semibold mb-2">Alumni Website</h4>
-        <p class="text-gray-700 mb-2">Jan 2020 – Apr 2020</p>
-        <p class="mb-4 text-sm">Built a university alumni-student collaboration website with an Oracle database backend. Designed normalized schemas, join queries, and dynamic front-end views.</p>
-        <span class="text-xs bg-yellow-100 text-yellow-800 px-2 py-1 rounded">MySQL</span>
-        <span class="text-xs bg-yellow-100 text-yellow-800 px-2 py-1 rounded">HTML/CSS</span>
+        <p class="text-gray-500 text-sm mb-2">Jan 2020 – Apr 2020</p>
+        <p class="mb-4 text-sm">University alumni collaboration platform with Oracle DB backend. Designed normalized schemas, join queries, and dynamic front-end views.</p>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-2 py-1 bg-yellow-100 text-yellow-800 text-xs rounded-full">MySQL</span>
+          <span class="px-2 py-1 bg-yellow-100 text-yellow-800 text-xs rounded-full">HTML/CSS</span>
+        </div>
       </div>
 
-      <!-- Campus Rooms Explorer -->
-      <div class="bg-white rounded-2xl shadow p-6">
+      <div class="bg-white rounded-2xl shadow hover:shadow-xl transition transform hover:-translate-y-2 p-6">
         <h4 class="text-xl font-semibold mb-2">Campus Rooms Explorer</h4>
-        <p class="text-gray-700 mb-2">Sep 2024 – Dec 2024</p>
-        <p class="mb-4 text-sm">Full stack React + Node.js application with Leaflet maps to visualize walking routes, custom markers, and distance/time estimates between rooms.</p>
-        <span class="text-xs bg-purple-100 text-purple-800 px-2 py-1 rounded">React</span>
-        <span class="text-xs bg-purple-100 text-purple-800 px-2 py-1 rounded">TypeScript</span>
-        <span class="text-xs bg-purple-100 text-purple-800 px-2 py-1 rounded">Node.js</span>
+        <p class="text-gray-500 text-sm mb-2">Sep 2024 – Dec 2024</p>
+        <p class="mb-4 text-sm">Full stack React + Node.js app with Leaflet maps for walking routes, custom markers, and distance/time estimates between rooms.</p>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded-full">React</span>
+          <span class="px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded-full">TypeScript</span>
+          <span class="px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded-full">Node.js</span>
+        </div>
       </div>
 
-      <!-- Credit Card Default Prediction -->
-      <div class="bg-white rounded-2xl shadow p-6">
+      <div class="bg-white rounded-2xl shadow hover:shadow-xl transition transform hover:-translate-y-2 p-6">
         <h4 class="text-xl font-semibold mb-2">Credit Card Default Prediction</h4>
-        <p class="text-gray-700 mb-2">May 2024 – Aug 2024</p>
-        <p class="mb-4 text-sm">Machine learning pipeline to predict credit card defaults using 30K+ records. Achieved 0.70 F1 score with models like XGBoost and LightGBM.</p>
-        <span class="text-xs bg-red-100 text-red-800 px-2 py-1 rounded">Python</span>
-        <span class="text-xs bg-red-100 text-red-800 px-2 py-1 rounded">scikit-learn</span>
-        <span class="text-xs bg-red-100 text-red-800 px-2 py-1 rounded">XGBoost</span>
+        <p class="text-gray-500 text-sm mb-2">May 2024 – Aug 2024</p>
+        <p class="mb-4 text-sm">Machine learning pipeline predicting credit card defaults (30K+ records). Achieved 0.70 F1 score with models like XGBoost & LightGBM.</p>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-2 py-1 bg-red-100 text-red-800 text-xs rounded-full">Python</span>
+          <span class="px-2 py-1 bg-red-100 text-red-800 text-xs rounded-full">scikit-learn</span>
+          <span class="px-2 py-1 bg-red-100 text-red-800 text-xs rounded-full">XGBoost</span>
+        </div>
       </div>
 
     </div>
   </section>
 
   <!-- About -->
-  <section id="about" class="bg-gray-100 py-16">
-    <div class="max-w-4xl mx-auto px-6 text-center">
+  <section id="about" class="bg-gray-100 py-20">
+    <div class="max-w-3xl mx-auto px-6 text-center">
       <h3 class="text-3xl font-bold mb-4">About Me</h3>
-      <p class="text-gray-700">I’m a developer passionate about building data visualizations, full-stack applications, and machine learning solutions. My work combines strong software engineering principles with user-focused design.</p>
+      <p class="text-gray-700 leading-relaxed">
+        I’m a developer passionate about building <span class="font-semibold">data visualizations</span>, 
+        <span class="font-semibold">full-stack applications</span>, and 
+        <span class="font-semibold">machine learning solutions</span>.  
+        My work combines solid engineering practices with user-focused design.
+      </p>
     </div>
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="max-w-4xl mx-auto px-6 py-16 text-center">
+  <section id="contact" class="max-w-3xl mx-auto px-6 py-20 text-center">
     <h3 class="text-3xl font-bold mb-4">Get in Touch</h3>
-    <p class="mb-6">Feel free to reach out via email or connect on LinkedIn.</p>
-    <a href="mailto:youremail@example.com" class="bg-blue-600 text-white px-4 py-2 rounded shadow hover:bg-blue-700">Email Me</a>
+    <p class="mb-6 text-gray-700">Let’s connect! I’m always open to interesting opportunities and collaborations.</p>
+    <div class="space-x-4">
+      <a href="mailto:youremail@example.com" class="bg-blue-600 text-white px-5 py-3 rounded-full font-medium shadow hover:bg-blue-700 transition">Email Me</a>
+      <a href="https://github.com/siuu07" target="_blank" class="bg-gray-800 text-white px-5 py-3 rounded-full font-medium shadow hover:bg-gray-900 transition">GitHub</a>
+      <a href="https://www.linkedin.com/in/saksham-bhatia-710b34217/" target="_blank" class="bg-indigo-600 text-white px-5 py-3 rounded-full font-medium shadow hover:bg-indigo-700 transition">LinkedIn</a>
+    </div>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-gray-800 text-gray-300 py-6 text-center">
-    <p>&copy; 2025 Saksham Bhatia. All rights reserved.</p>
+  <footer class="bg-gray-900 text-gray-400 py-6 text-center text-sm">
+    <p>&copy; 2025 Saksham Bhatia. Built with ❤️ using Tailwind CSS.</p>
   </footer>
 
 </body>
