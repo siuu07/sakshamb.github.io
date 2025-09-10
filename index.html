@@ -1,128 +1,105 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Saksham Bhatia</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saksham Bhatia | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+  <!-- Header -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold">Saksham Bhatia</h1>
+      <nav class="space-x-6">
+        <a href="#projects" class="hover:text-blue-600">Projects</a>
+        <a href="#about" class="hover:text-blue-600">About</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>MY PORTFOLIO</h1>
-						<p>A showcase of my projects and my abilities</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+  <!-- Hero -->
+  <section class="text-center py-16 bg-gradient-to-r from-blue-500 to-indigo-600 text-white">
+    <h2 class="text-4xl font-bold mb-4">Welcome to My Portfolio</h2>
+    <p class="text-lg">I build interactive dashboards, full-stack apps, and machine learning models.</p>
+  </section>
 
-				<!-- Header -->
-                <!--
-					<header id="header">
-						<a class="image main"><img class="center" width="270" height="700" src="images/394f31b7-1e7c-499d-8432-1dfd3fbdf9bd.JPG" alt="" /></a>
-					</header>
-                -->
-				<!-- Nav -->
-					
-                    <nav id="nav">
-                        
-						<ul class="links">
-							<li class="active"><a href="index.html">HOME</a></li>
-							<!--
-                            <li><a href="generic.html">Generic Page</a></li>
-							<li><a href="elements.html">Elements Reference</a></li>
-                        -->
-						</ul>
-                    
-						<ul class="icons">
-							<li><a href="https://linkedin.com/in/saksham-bhatia-710b34217" class="icon brands fa-linkedin"><span class="label">Instagram</span></a></li>
-						</ul>
-					</nav>
-                    
-				<!-- Main -->
-					<div id="main">
+  <!-- Projects -->
+  <section id="projects" class="max-w-5xl mx-auto px-6 py-16">
+    <h3 class="text-3xl font-bold mb-10">Projects</h3>
+    <div class="grid md:grid-cols-2 gap-8">
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="#">Saksham Bhatia</a></h2>
-									<p>I am a passionate Computer Science student with multiple projects.
-                                        Seeking to design software with proven skills in Java, HTML, CSS.
-                                        Recognized efforts for team projects in building websites, collecting,
-                                        analyzing information and making decisions based on the analysis.
-                                        President of the University Coding club designed to teach students
-                                        java syntax and logic building. Adaptable and transformational
-                                        personality with an ability to provide pragmatic and out of the box
-                                        ideas thus boosting organizational productivity and efficiency.</p>
-								</header>
-								<a class="image main"><img width="800" height="800" src="images/gema-saputera-pJaocJrXGFQ-unsplash.jpg" alt="" /></a>
-								
-							</article>
+      <!-- Shark Attack Data Visualization -->
+      <div class="bg-white rounded-2xl shadow p-6">
+        <h4 class="text-xl font-semibold mb-2">Shark Attack Data Visualisation</h4>
+        <p class="text-gray-700 mb-2">Jan 2025 – Apr 2025</p>
+        <p class="mb-4 text-sm">Interactive D3.js dashboard with a timeline, choropleth map, and parallel sets chart to explore 200+ years of Australian shark attack data. Implemented dynamic filters, dispatcher architecture, and responsive design.</p>
+        <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">D3.js</span>
+        <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">JavaScript</span>
+      </div>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<h2><a href="generic.html">Project 1</a></h2>
-									</header>
-									<a href="generic.html" class="image fit"><img src="images/Screenshot%202022-05-19%20at%2012.41.45%20AM.png" alt="" /></a>
-									<p>Using Java, I programmed a Fantasy Soccer game that allowed users to create a team with 11 players and earn points using the player’s stats (goals and assists). I developed a highly interactive and customized UI using JFrames, Buttons, JLabels along with a SplashScreen within Java Swing. Lastly, I performed unit testing of application by applying test cases in JUnit.</p>
-									<ul class="actions special">
-										<li><a href="generic.html" class="button">Check it out</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="generic2.html">Project 2</a></h2>
-									</header>
-									<a href="generic2.html" class="image fit"><img align="middle" src="images/Screenshot%202022-05-19%20at%201.01.03%20AM.png" alt="" /></a>
-									<p>Last year, as a team of 5 I worked to design a website that enhanced alumni-student interactions website. My responsibilities as the back-end developer included debugging redundancies and schema testing. This consisted of creation of new tables where common attributes were acquired from pre-defined tables by making use of PHP sessions to ensure that the attributes of each data table are solely dependent on the primary key. This project was used as a template by university staff to further develop the existing website.</p>
-									<ul class="actions special">
-										<li><a href="generic2.html" class="button">Check it out</a></li>
-									</ul>
-								</article>
-							</section>
+      <!-- Fantasy Soccer Game -->
+      <div class="bg-white rounded-2xl shadow p-6">
+        <h4 class="text-xl font-semibold mb-2">Fantasy Soccer Game</h4>
+        <p class="text-gray-700 mb-2">Sep 2021 – Dec 2021</p>
+        <p class="mb-4 text-sm">Single-player Java Swing game where users build soccer teams and earn points from real-world player performance. Features load/save options using JSON.</p>
+        <span class="text-xs bg-green-100 text-green-800 px-2 py-1 rounded">Java</span>
+        <span class="text-xs bg-green-100 text-green-800 px-2 py-1 rounded">Swing</span>
+      </div>
 
-					</div>
+      <!-- Alumni Website -->
+      <div class="bg-white rounded-2xl shadow p-6">
+        <h4 class="text-xl font-semibold mb-2">Alumni Website</h4>
+        <p class="text-gray-700 mb-2">Jan 2020 – Apr 2020</p>
+        <p class="mb-4 text-sm">Built a university alumni-student collaboration website with an Oracle database backend. Designed normalized schemas, join queries, and dynamic front-end views.</p>
+        <span class="text-xs bg-yellow-100 text-yellow-800 px-2 py-1 rounded">MySQL</span>
+        <span class="text-xs bg-yellow-100 text-yellow-800 px-2 py-1 rounded">HTML/CSS</span>
+      </div>
 
-				<!-- Footer -->
-					!-- Footer -->
-					<footer id="footer">
-						<section class="split contact">
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">sakshambhatia2002@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://linkedin.com/in/saksham-bhatia-710b34217" class="icon brands alt fa-linkedin"><span class="label">Instagram</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+      <!-- Campus Rooms Explorer -->
+      <div class="bg-white rounded-2xl shadow p-6">
+        <h4 class="text-xl font-semibold mb-2">Campus Rooms Explorer</h4>
+        <p class="text-gray-700 mb-2">Sep 2024 – Dec 2024</p>
+        <p class="mb-4 text-sm">Full stack React + Node.js application with Leaflet maps to visualize walking routes, custom markers, and distance/time estimates between rooms.</p>
+        <span class="text-xs bg-purple-100 text-purple-800 px-2 py-1 rounded">React</span>
+        <span class="text-xs bg-purple-100 text-purple-800 px-2 py-1 rounded">TypeScript</span>
+        <span class="text-xs bg-purple-100 text-purple-800 px-2 py-1 rounded">Node.js</span>
+      </div>
 
+      <!-- Credit Card Default Prediction -->
+      <div class="bg-white rounded-2xl shadow p-6">
+        <h4 class="text-xl font-semibold mb-2">Credit Card Default Prediction</h4>
+        <p class="text-gray-700 mb-2">May 2024 – Aug 2024</p>
+        <p class="mb-4 text-sm">Machine learning pipeline to predict credit card defaults using 30K+ records. Achieved 0.70 F1 score with models like XGBoost and LightGBM.</p>
+        <span class="text-xs bg-red-100 text-red-800 px-2 py-1 rounded">Python</span>
+        <span class="text-xs bg-red-100 text-red-800 px-2 py-1 rounded">scikit-learn</span>
+        <span class="text-xs bg-red-100 text-red-800 px-2 py-1 rounded">XGBoost</span>
+      </div>
 
-			</div>
+    </div>
+  </section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+  <!-- About -->
+  <section id="about" class="bg-gray-100 py-16">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-4">About Me</h3>
+      <p class="text-gray-700">I’m a developer passionate about building data visualizations, full-stack applications, and machine learning solutions. My work combines strong software engineering principles with user-focused design.</p>
+    </div>
+  </section>
 
-	</body>
+  <!-- Contact -->
+  <section id="contact" class="max-w-4xl mx-auto px-6 py-16 text-center">
+    <h3 class="text-3xl font-bold mb-4">Get in Touch</h3>
+    <p class="mb-6">Feel free to reach out via email or connect on LinkedIn.</p>
+    <a href="mailto:youremail@example.com" class="bg-blue-600 text-white px-4 py-2 rounded shadow hover:bg-blue-700">Email Me</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-300 py-6 text-center">
+    <p>&copy; 2025 Saksham Bhatia. All rights reserved.</p>
+  </footer>
+
+</body>
 </html>
